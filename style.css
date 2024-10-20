@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border: 2px solid black;
+  }
+  
+  .item {
+    margin: 20px;
+    background-color: lightblue;
+    flex-grow:2;
+    padding: 20px;
+    border: 1px solid blue;
+  }
